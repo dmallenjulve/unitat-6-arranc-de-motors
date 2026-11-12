@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ca" xml:lang="ca" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Circuit de Potencia | APUNTS IEA </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="ca" />
+<meta name="author" content="Rafa Gascón" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-10"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Omet navegació</a></p>
+<div id="header" ><div id="headerContent">APUNTS IEA</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Motors Trifàsic d'Inducció. Sistemes d'Arranc</a></li>
+   <li><a href="arrancada_directa.html" class="no-ch">Arrancada Directa</a></li>
+   <li class="current-page-parent"><a href="sistemes_darrancada_per_disminuci_de_la_tensi_de_lestator.html" class="current-page-parent daddy">Sistemes d'arrancada per disminució de la tensió de l'estator</a>
+   <ul>
+      <li><a href="autotransformador.html" class="daddy">Auto-Transformador</a>
+      <ul class="other-section">
+         <li><a href="corbes_de_parell_i_intensitat.html" class="no-ch">Corbes de Parell i Intensitat</a></li>
+         <li><a href="circuit_de_potncia.html" class="no-ch">Circuit de Potència</a></li>
+      </ul>
+      </li>
+      <li class="current-page-parent"><a href="arranc_estrellatriangle.html" class="current-page-parent daddy">Arranc Estrella-Triangle</a>
+      <ul>
+         <li><a href="corbes_de_parell_i_intensitat0.html" class="no-ch">Corbes de Parell i Intensitat</a></li>
+         <li id="active"><a href="circuit_de_potencia.html" class="active no-ch">Circuit de Potencia</a></li>
+         <li><a href="circuit_de_comandament.html" class="no-ch">Circuit de Comandament</a></li>
+      </ul>
+      </li>
+      <li><a href="arrancadors_progressius_soft_starters.html" class="daddy">Arrancadors Progressius (Soft Starters)</a>
+      <ul class="other-section">
+         <li><a href="avantatges_front_larranc_estrellatriangle.html" class="no-ch">Avantatges front l'arranc "Estrella-Triangle"</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="motor_de_bobinats_separats_part_winding.html" class="no-ch">Motor de bobinats separats (Part Winding)</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="corbes_de_parell_i_intensitat0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="circuit_de_comandament.html" class="next"><span>Següent<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Circuit de Potencia</h1></div>
+<div class="iDevice_wrapper FreeTextIdevice" id="id32">
+<div class="iDevice emphasis0">
+<div id="ta32_85" class="block iDevice_content">
+<p>El circuit de potència, a més de les proteccions (Interruptor Automàtic i Relé Tèrmic), utilitza tres contactors:</p>
+<p><img width="632" height="602" src="ARRANCB-001.png" /></p>
+<ul>
+<li>KM1: Contactor de línia, la seva funció es dónar energia elèctrica al motor</li>
+<li>KM2: Contactor que realitza la connexió "Triangle"</li>
+<li>KM3: Contactor que realitza la connexió "Estrella"</li>
+</ul>
+<table border="0">
+<tbody>
+<tr>
+<td style="width: 38px; text-align: center; vertical-align: top;"><img width="38" height="40" src="advertencia2.png" /></td>
+<td style="background-color: #ffffcc; border: 1px solid #000000; width: 1512px;">Hem de tindre en compte que en l'arranc "EStrella-Triangle" hem de connectar els sis terminals del motor (hem de retirar les xapes de connexió), i és molt important respectar l'ordre de connexió, ja que si no ho fem, a més de no arrancar, es podria produir un curtcircuit en la connexió "Triangle".</td>
+</tr>
+</tbody>
+</table>
+<p><img width="423" height="262" style="display: block; margin-left: auto; margin-right: auto;" src="ARRANCB-008-1.png" /></p>
+<p><span style="font-size: large; color: #ffffff; background-color: #008000;"> Seqüència de funcionament </span></p>
+<ol>
+<li>En el moment de la posada en marxa han d'activar-se els contactors KM1 i KM3.  D'aquesta manera el motor queda connectat en "Estrella".</li>
+<li>Al cap de un temps t, es desactiva el contactor KM3, mantenint KM1 activat, i activant KM2. D'aquesta manera el motor queda connectat en "Triangle"</li>
+</ol>
+<ul>
+<li>Cada volta que el motor es pose en marxa, és necessari repetir els pasos anteriors.</li>
+<li>El relé tèrmic es col·loca entre el contactor KM1 i el motor.</li>
+</ul>
+<p></p>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper GalleryIdevice em_iDevice em_iDevice_gallery" id="id33">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">Circuit de Potencia</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<ul class="exeImageGallery" id="exeImageGallery33">
+<li><a title="" href="ARRANCB-009.png"><img alt="" width="128" height="128" src="ARRANCB-009Thumbnail.png" /><span class="tit"></span></a></li>
+</ul>
+<script type="text/javascript">$exe.imageGallery.init("exeImageGallery33");</script>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper activityIdevice em_iDevice em_iDevice_activity" id="id34">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header"><h2 class="iDeviceTitle">SEGURETAT</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta34_43_2" class="block iDevice_content">
+<p>En cap cas s'han d'activar al mateix temps els contactors d'estrella i de triangle, ja que es produiria un curtcircuit.</p>
+<p>Per evitar aquesta possibilitat entre els contactors Estrella i Triangle, pot existir un enclavament mecànic, que físicament consisteix en una peça adossada entre els dos contactors, que impedeixe que s'activen al mateix temps.</p>
+<p><img width="731" height="228" src="ARRANCB-020-1.png" /></p>
+<p>Alguns fabricants disposen de conjunts completament montats amb enclavament mecànic entre els dos contactors "Estrella" i "Triangle"</p>
+<p><img width="300" height="230" src="ARRANCB-015.png" /></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="iDevice_wrapper textIdevice em_iDevice em_iDevice_account" id="id74">
+<div class="iDevice emphasis1" >
+<div class="iDevice_header" style="background-image:url(icon_account.png)"><h2 class="iDeviceTitle">AVÍS</h2></div>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta74_108_2" class="block iDevice_content">
+<div class="exe-text"><h2><span style="text-decoration: underline;">SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</span></h2></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Llicenciat sota la </span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Llicència Creative Commons Reconeixement CompartirIgual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="corbes_de_parell_i_intensitat0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="circuit_de_comandament.html" class="next"><span>Següent<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>

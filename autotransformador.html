@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ca" xml:lang="ca" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Auto-Transformador | APUNTS IEA </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="content-language" content="ca" />
+<meta name="author" content="Rafa Gascón" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.9 - exelearning.net" />
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-19"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Omet navegació</a></p>
+<div id="header" ><div id="headerContent">APUNTS IEA</div></div>
+<div id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Motors Trifàsic d'Inducció. Sistemes d'Arranc</a></li>
+   <li><a href="arrancada_directa.html" class="no-ch">Arrancada Directa</a></li>
+   <li class="current-page-parent"><a href="sistemes_darrancada_per_disminuci_de_la_tensi_de_lestator.html" class="current-page-parent daddy">Sistemes d'arrancada per disminució de la tensió de l'estator</a>
+   <ul>
+      <li id="active"><a href="autotransformador.html" class="active daddy">Auto-Transformador</a>
+      <ul>
+         <li><a href="corbes_de_parell_i_intensitat.html" class="no-ch">Corbes de Parell i Intensitat</a></li>
+         <li><a href="circuit_de_potncia.html" class="no-ch">Circuit de Potència</a></li>
+      </ul>
+      </li>
+      <li><a href="arranc_estrellatriangle.html" class="daddy">Arranc Estrella-Triangle</a>
+      <ul class="other-section">
+         <li><a href="corbes_de_parell_i_intensitat0.html" class="no-ch">Corbes de Parell i Intensitat</a></li>
+         <li><a href="circuit_de_potencia.html" class="no-ch">Circuit de Potencia</a></li>
+         <li><a href="circuit_de_comandament.html" class="no-ch">Circuit de Comandament</a></li>
+      </ul>
+      </li>
+      <li><a href="arrancadors_progressius_soft_starters.html" class="daddy">Arrancadors Progressius (Soft Starters)</a>
+      <ul class="other-section">
+         <li><a href="avantatges_front_larranc_estrellatriangle.html" class="no-ch">Avantatges front l'arranc "Estrella-Triangle"</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="motor_de_bobinats_separats_part_winding.html" class="no-ch">Motor de bobinats separats (Part Winding)</a></li>
+</ul>
+</div>
+<div id='topPagination'>
+<div class="pagination noprt">
+<a href="sistemes_darrancada_per_disminuci_de_la_tensi_de_lestator.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="corbes_de_parell_i_intensitat.html" class="next"><span>Següent<span> &raquo;</span></span></a>
+</div>
+</div>
+<div id="main-wrapper">
+<div id="main"><a name="main"></a>
+<div id="nodeDecoration"><h1 id="nodeTitle">Auto-Transformador</h1></div>
+<div class="iDevice_wrapper textIdevice" id="id64">
+<div class="iDevice emphasis0" >
+<div id="ta64_108_2" class="block iDevice_content">
+<div class="exe-text"><p><span>Aquest sistema d'arracada consisteix en utilitzar un autotransformador (-T) per subministrar una tensió reduïda U (entre el 50% i el 80%) a l'estator del motor durant el procés d'arrancada. Passat un temps determinat, el necessari  perquè el motor estigue prop de la seua velocitat nominal, el motor quedarà connectat a la tensió nominal. </span></p>
+<p><img src="ARRANC3-027-1.png" alt="" width="1457" height="798" /></p>
+<p><span>El procés d'arrancada </span><span>es duu a terme</span><span> en tres fases:</span></p>
+<p><span><img src="ARRANC3-021-2.1.png" alt="" width="905" height="425" /></span></p>
+<ul>
+<li><strong>FASE I</strong>: S'activa el contactor KM1 i l'auto-transformador queda connectat amb estrella. Immediatament després s'activa el contactor KM2 i el motor rep la tensió des de la sortida de l'autotransformador (tensió reduïda, U), es a dir, la tensió d'arrancada té com a valor Ua=U</li>
+<li><strong>FASE II</strong>: una vegada assolida la velocitat d'equilibri (fi de la temporització) es desactiva el contactor KM1, es a dir,  l'estrella de l'auto-transformador queda desconnectada i i el bobinats del motor queden connectats amb sèrie amb una part dels bobinats de l'auto-transformador. El tems de duració d'aquesta fase és molt xicotet (inferior a un segon) ja que tot seguit es passa a la següent fase. </li>
+<li><strong>FASE III</strong>: s'activa el contactor KM3 i les bobines de l'autotransformador queden curtcircuitades i les bobines de l'estator reben la tensió nominal (Un). Tot seguit, es desactiva el contactor KM2 i l'autotransformador queda desconnectat. </li>
+</ul>
+<table border="1" style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 100%;">ss S'ha de remarcar que tot el procés d'arrancada es duu a terme sense interrupció de corrent en el motor, la qual cosa evita que es produïsquen fenòmens transitoris.</td>
+</tr>
+</tbody>
+</table>
+<p></p></div>
+</div>
+</div>
+</div>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Llicenciat sota la </span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Llicència Creative Commons Reconeixement CompartirIgual 4.0</a></p>
+</div>
+</div>
+</div>
+<div id='bottomPagination'>
+<div class="pagination noprt">
+<a href="sistemes_darrancada_per_disminuci_de_la_tensi_de_lestator.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="corbes_de_parell_i_intensitat.html" class="next"><span>Següent<span> &raquo;</span></span></a>
+</div>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
